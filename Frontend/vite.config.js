@@ -13,14 +13,3 @@ export default defineConfig({
     },
   },
 });
-
-// export default defineConfig({
-//   server: {
-//     proxy: {
-//       '/api': {
-//         target: 'http://localhost:5000',  // Make sure this is your backend URL
-//         changeOrigin: true,
-//       },
-//     },
-//   },
-// });
