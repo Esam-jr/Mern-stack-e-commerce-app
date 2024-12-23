@@ -5,7 +5,7 @@
   "scripts": {
     "dev": "NODE_ENV=development nodemon Backend/serve.js",
     "build": "npm install && npm install --prefix Frontend && npm run build --prefix Frontend",
-    "start": "set NODE_ENV=production&& node Backend/serve.js"
+    "start": "cross-env NODE_ENV=production node Backend/serve.js"
   },
   "type": "module",
   "keywords": [],
